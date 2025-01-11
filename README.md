@@ -15,8 +15,13 @@ In this project you will build such a pipeline.
   * [The configuration](#the-configuration)
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
+  * [Weights & Biases Link](#Weights-Biases)
 
 ## Preliminary steps
+
+
+### Weights-Biases
+Workspace for Weights & Biases pointing to [NYC Airbnb](https://wandb.ai/darinjswilliams-prismai/nyc_airbnb?nw=nwuserdarinjswilliams) rental workspace
 
 ### Supported Operating Systems
 

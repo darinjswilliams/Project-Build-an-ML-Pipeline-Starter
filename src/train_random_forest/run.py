@@ -96,6 +96,8 @@ def go(args):
     ######################################
     # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
     # HINT: use mlflow.sklearn.save_model
+    # update scikit does not need to use signature, the infer signature is not longer needed
+    # if you uncommit the signature and run the code it will cause an error
     # signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
         # YOUR CODE HERE
